@@ -5,23 +5,25 @@ let data = require('../data/data.json');
 
 
 r.get('/', (req, res) => {
-    // console.log(data.speakers[0]);
+    // console.log(data.albums[0]);
 
     let pagePhotos = [];
 
-    data.speakers.forEach((speakerObj) =>{
+    data.albums.forEach((albumObj) =>{
 
-        pagePhotos = pagePhotos.concat(speakerObj.artwork)
-
+        pagePhotos = pagePhotos.concat(albumObj.coverImg)
+    
     });
-
-    // console.log(pagePhotos);
+    console.log(pagePhotos);
 
 
     res.render('index',{
-        artwork: pagePhotos,
-        allspeakers: data.speakers
+        pageTitle: "Yannis Albums",
+        albumImgs: pagePhotos,
+        allAlbums: data.albums
+        
     })
+    
 });
 
 
@@ -29,17 +31,3 @@ r.get('/', (req, res) => {
 module.exports = r;
 
 
-// const express = require('express');
-// const router = express.Router();
-// let data = require('../data/data.json')
-// router.get('/', (req, res)=>{
-//     let pagePhotos = [];
-//     data.speakers.forEach((speakerObj)=>{
-//         pagePhotos = pagePhotos.concat(speakerObj.artwork)
-//     })
-//     console.log(pagePhotos)
-//     res.render('index', {
-//         artwork: pagePhotos
-//     })
-// })
-// module.exports = router;

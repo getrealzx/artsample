@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title><%= pageTitle %></title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/global.css">
+  </head>
+  <body>
+      
+
+    <div class="container-fluid p-0 ">
+      <div class="header position-sticky mynav">
+          <img src="images/misc/Yanni-2400x675-1600x450.jpg" alt="">
+
+      </div>
+
+      <div class="sticky-top bg-white">
+        <ul class="nav nav-pills shadow mb-4 d-flex justify-content-between">
+          <li class="nav-item">
+            <a class="nav-link btn-light ml-5" href="#">About Yanni</a>
+          </li>
+    
+          <li class="nav-item bg-white mr-5">
+            <div class="dropdown-menu-right show btn-light">
+              <a class="btn btn-light dropdown-toggle" href="/albums" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                List of Albums
+              </a>
+              <div class="dropdown-menu shadow" aria-labelledby="dropdownMenuLink">
+                  <hr>
+                  <% allAlbums.forEach((item) => { %>
+                    <a class="dropdown-item" href="/albums/<%= item.albumName %>"><%= item.albumName %></a>
+                  <% }); %>
+        
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+
+
+    </div>
+    
+    <div class="row section h-100 bg-md-bk p-5 shadow">
+      <h4>Biograhy</h4>
+      
+      Yanni was born Yiannis Chryssomalis on November 14, 1954 on the Greek island of Kalamata. He displayed a talent for a music at a young age, playing piano at the age of six, but rather than enroll him in music school, his parents encouraged their son to follow his own muse and learn the instrument at his own pace and in his own way. In 1972, Yanni traveled to Minnesota to attend college, and while he majored in psychology, he didn't walk away from music, playing in a local rock band and continuing his personal study of piano and other keyboard instruments. In 1977, after receiving his degree, Yanni joined a Minneapolis-based rock group called Chameleon, who toured regionally and cut several self-released albums, but in 1980, he began striking out on his own, recording and releasing an album of his own material, Optimystique. In 1984, Yanni signed a deal with Atlantic Records, who re-released the privately issued Optimystique; his deal with Atlantic proved short-lived, but the album attracted the attention of the noted independent label Private Music, who released Yanni's second album, Keys to Imagination, in 1986. (They would also reissue Optimystique a few years later.) Yanni relocated to Los Angeles, where he began composing film scores as well as recording as a solo artist, and in 1987, after releasing his third album, Out of Silence, he set out on his first major concert tour; the band included John Tesh on keyboards and former Chameleon drummer Charlie Adams. In 1990, after the release of Reflections of Passion, Yanni performed a special concert with the Dallas Symphony Orchestra, a preview of the large-scale events he would stage in the future.
+
+    </div>
+    <div class="parallax"></div>
+
+    <div class="row section h-100 bg-md p-5 shadow">
+      
+In 1992, the album Dare to Dream earned Yanni his first Grammy nomination, and his music began popping up in television commercials and during coverage of sporting events, bringing his compositions to a new audience. His concert tours became larger and more spectacular as his fan base grew, and in the fall of 1993, in support of the album In My Time, he performed a special show at the Herod Atticus Theater in Athens, Greece, a venue that was over 2,000 years old. The concert was recorded and videotaped, and the subsequent Yanni Live at the Acropolis album and home video became major successes, selling over seven million copies worldwide and becoming a fixture on public television broadcasts in the United States. The success of Live at the Acropolis led to Yanni staging prestigious events at London's Royal Albert Hall and major venues around the globe, as well as special concerts at the Taj Mahal in India and the Forbidden City in China, both in 1997 (material from the two shows appeared on the album Tribute). In both cases, Yanni was the first Western artist permitted to perform at these historic landmarks. After concluding a world tour in 1998, Yanni took a well-deserved vacation for two years and relocated to the East Coast; his 2000 studio album If I Could Tell You offered a more personal and intimate sound from the composer (it was also his first album for Virgin Records), and he explored world music sounds on 2003's Ethnicity. In 2009, he launched his own label, Yanni-Wake Entertainment, in association with Disney, and released Yanni Voices, in which he collaborated with vocalists for the first time in his solo career, teaming with a handful of gifted newcomers. Yanni took his vocalists on the road for a Yanni Voices concert tour, and in 2010, he explored his interest in Latin music on the album Mexicanisimo. A new studio effort, Truth of Touch, followed in 2011 and proved Yanni's popularity had not waned, topping the Billboard new age chart and going on to become the biggest-selling new age album of that year. After extensive touring for the release, Yanni added another string to his bow by collaborating with some of the biggest names in vocal classical music on his next album, Inspirato. On the album, released in 2014, the likes of Plácido Domingo, Renée Fleming, Russell Watson, Vittorio Grigolo, Rolando Villazón, and Katherine Jenkins added operatic vocals to a selection of re-recordings of classic inspirational tracks from Yanni's back catalog. He followed that up with 2016's aptly titled Sensuous Chill, a set of ten new recordings and seven previously released tracks, selected and sequenced with sensual atmosphere in mind.
+
+    </div>
+
+
+
+
+    <!-- <img src="images/albums/<%= albumImgs[0] %>" alt="">
+
+    <div><%= allAlbums[0].shortSummary %></div> -->
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

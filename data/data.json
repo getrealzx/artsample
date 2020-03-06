@@ -1,24 +1,42 @@
 {
-  "speakers": [{
-    "title" : "Art in Full Bloom",
-    "name": "Lorenzo Garcia",
-    "shortname" : "Lorenzo_Garcia",
-    "summary" : "Drawing and painting flowers may seem like a first-year art student's assignment, but Lorenzo Garcia brings depth, shadows, light, form and color to new heights with his unique and revolutionary technique of painting on canvas with ceramic glaze. This session is sure to be a hit with mixed media buffs.",
-    "description": "<p>Lorenzo was born in Mexico, but grew up in Southern California after his mother immigrated to Los Angeles when he was a year old. His mother worked as a seamstress in the Fashion District and brought home scrap materials for Lorenzo to create his early mixed media art. From that point on, Lorenzo became hooked on creating art from scrap metals, fabrics, wood, canvas, and many others. During his junior year at Bischon Art School in Los Angeles, he perfected his own proprietary method of painting on canvas with ceramic glaze, which he will demonstrate on Monday in his session, 'Art in Full Bloom'.</p><p>Lorenzo paints with an extraordinary amount of color, and prefers to create art centered around nature, animals, and science. Now in his senior year at Bischon, Lorenzo has been creating mixed media totem poles made from old telephone poles, and other recycled materials, and is already planning his next new technique that will likely inspire a trend for years to come.</p>",
-    "artwork": ["Lorenzo_Garcia_01_tn.jpg", "Lorenzo_Garcia_02_tn.jpg", "Lorenzo_Garcia_03_tn.jpg", "Lorenzo_Garcia_04_tn.jpg"]
-  },{
-    "title" : "Deep Sea Wonders",
-    "name": "Hilary Goldywynn Post",
-    "shortname" : "Hillary_Goldwynn",
-    "summary": "Hillary is a sophomore art sculpture student at New York University, and has won the major international prizes for painters, including the Divinity Circle and the International Painter's Medal. Hillary's exhibit features paintings that contain only water including waves, deep sea, and river.",
-    "description": "<p>Hillary is a sophomore art sculpture student at New York University, and has already won all the major international prizes for new painters, including the Divinity Circle, the International Painter's Medal, and the Academy of Paris Award. Hillary's CAC exhibit features paintings that contain only water images including waves, deep sea, and river.</p><p>An avid water sports participant, Hillary understands the water in many ways in which others do not, or may not ever have the opportunity. Her goal in creating the CAC exhibit was to share with others the beauty, power, and flow of natural bodies of water throughout the world. In addition to the display, Hilary also hosts a session on Tuesday called Deep Sea Wonders, which combines her love of deep sea diving and snorkeling, with instruction for capturing the beauty of underwater explorations on canvas.</p>",
-    "artwork" : ["Hillary_Goldwynn_01_tn.jpg" , "Hillary_Goldwynn_02_tn.jpg" , "Hillary_Goldwynn_03_tn.jpg" , "Hillary_Goldwynn_04_tn.jpg" , "Hillary_Goldwynn_05_tn.jpg" , "Hillary_Goldwynn_06_tn.jpg" , "Hillary_Goldwynn_07_tn.jpg"]
-  },{
-    "title" : "The Art of Abstract",
-    "name": "Riley Rudolph Rewington",
-    "shortname" : "Riley_Rewington",
-    "summary": "The leader of the MMA artistic movement in his hometown of Portland, Riley Rudolph Rewington draws a crowd wherever he goes. Mixing street performance, video, music, and traditional art, Riley has created some of the most unique and deeply poignant abstract works of his generation.",
-    "description": "<p>Riley started out as musician and street performance artist, and now blends painting and photography with audio, video, and computer multimedia to create what he calls 'Music and Multimedia Artworks.' Riley's innovations in using multimedia to express art have created a youth culture movement in his town of Portland, in which he remains at the forefront. In his role as the founder of the MMA art form, Riley has become an inspiration to many up and coming artists. However, the part Riley insists is most important to him, is that he's helped many troubled youth take control of their lives, and create their own unique, positive futures. Seeing kids he's mentored graduate from high school and enroll in college, gives art the purpose that Riley so craves.</p><p>A first-year student at the Roux Academy of Art, Media, and Design, Riley is already changing the face of modern art at the university. Riley's exquisite abstract pieces have no intention of ever being understood, but instead beg the viewer to dream, create, pretend, and envision with their mind's eye. Riley will be speaking on the 'Art of Abstract' during Thursday's schedule.</p>",
-    "artwork" : ["Riley_Rewington_01_tn.jpg","Riley_Rewington_02_tn.jpg","Riley_Rewington_03_tn.jpg","Riley_Rewington_04_tn.jpg","Riley_Rewington_05_tn.jpg","Riley_Rewington_06_tn.jpg"]
-  }]
+  "albums": [{
+    "albumName": "Tribute",
+    "releaseDate" : "November 4, 1997",
+    "shortSummary" : "Tribute is the third live album by Yanni, recorded live at the Taj Mahal, India and the Forbidden City, Beijing, China from March to May 1997. The album peaked at No. 1 on &rdquo;Billboard's &rdquo;Top New Age Album&rdquo; chart and at No. 21 on the &rdquo;Billboard 200&rdquo; chart in the same year.The corresponding concert tour in 1998 was the Tribute World Tour 1998.",
+
+    "history" : "Tribute pays musical homage to India on several songs; Greek-born composer and keyboardist Yanni describes the album as a tribute to the builders of the Taj and the Forbidden City, as well as to the people of India and China. Yanni's ethereal keyboard work is backed by orchestra, vocalists, a choir, and various world instruments including didgeridoo, duduk, charango, and bamboo saxophone. Yanni hired Armen Anassian as Conductor &rdquo;on faith&rdquo; --- as he had never watched him conduct an orchestra. &rdquo;That's how Yanni does many things,&rdquo; Anassian said in a 1998 interview with the Toledo Blade. Anassian concedes that he had some doubts about the artist's plans to perform at India's Taj Mahal and China's Forbidden City, for Tribute. &rdquo;To be honest, a few years ago when he was talking about it, the idea was so amazing. I myself was very skeptical, understandably so. But the truth is, it happened. We did it.&rdquo; Anassian said the Tribute video looks great but watching it on film cannot compare to actually being at the Taj Mahal and Forbidden City concerts. &rdquo;It doesn't feel the same. It doesn't smell the same,&rdquo; he said with a laugh. &rdquo;It's hard to put it in a nutshell. It was a life-changing experience.&rdquo;",
+
+    "coverImg": "Yannitributecover.jpg",
+    "songList": ["Deliverance","Adagio in C Minor","Renegade","Dance with a Stranger","Tribute","Prelude"	,"Love Is All" ,"Southern Exposure"	,"Waltz in 7/8","Nightingale"	,"Niki Nana (We're One)" ],
+    "producer":	"Yanni",
+    "label" : "Virgin Record"
+  },
+  
+  {
+    "albumName": "Keys to Imagination",
+    "releaseDate" : "August 18, 1986",
+    "shortSummary" : "Keys to Imagination is the second studio album by Greek keyboardist and composer Yanni, released on the Private Music label in 1986.",
+
+    "history" :"In an interview with Cymbiosis, Yanni said that he often spent 12-15 hours a day producing the album. Yanni also stated that his favorite part about producing the album was to activate &rdquo;up to six or seven keyboards&rdquo; and that &rdquo;the most simple sounds on Keys to Imagination are made with at least two or three keyboards.&rdquo;",
+
+    "coverImg": "Yannikeystoimaginationcover.jpg",
+    "songList": [	"The North Shore of Matsushima","Looking Glass","Nostalgia" ,"Santorini"	,"Port of Mystery"	, "Keys to Imagination", 	"Forgotten Yesterdays" ,	"Forbidden Dreams"],
+    "producer":	"Yanni",
+    "label" : "Private Music"
+
+  },
+
+  
+{
+  "albumName": "In Celebration of Life",
+  "releaseDate" : "August 18, 1986",
+  "shortSummary" : "In Celebration of Life is the seventh studio album by Greek keyboardist and composer Yanni, released on the Private Music label in 1991. The album peaked at #3 on Billboard's &rdquo;Top New Age Albums&rdquo; chart and at #60 on the &rdquo;Billboard 200&rdquo; in the same year.",
+  "history" : " In a review by Johnny Loftus of AllMusic, &rdquo;In Celebration of Life draws from four early Yanni albums – Keys to Imagination, Out of Silence, Chameleon Days and Niki Nana – and also includes the new &rdquo;Song for Antarctica&rdquo;, recorded for the Polar Shift benefit album. The collection is a solid overview of the new age composer's initial work, displaying all of the tenets that have made his music so popular over the years. Opener &rdquo;Santorini&rdquo; features a powerful, sweeping melody, while &rdquo;Marching Season&rdquo; is driven by the relationship between an urgent piano line and a surging, synthesized string section. &rdquo;Keys to Imagination&rdquo; begins in a contemplative mood, but by song's end features the galloping keyboards and crashing percussion typical of Yanni's work. Fans will have most, if not all of the material here, but newcomers might enjoy In Celebration of Life as an overview of Yanni's early work. Fans may also want to search out the Polar Shift compilation, which features &rdquo;Song for Antarctica&rdquo;, as well as music from heavyweights like Kitarō, Vangelis, and Enya.&rdquo; ",
+  "coverImg": "Yanni-InCelebrationofLifeAlbum.png",
+  "songList": ["Santorini"	, "Song for Antarctica"	,	"Marching Season","Walkabout"	,	"Keys to Imagination",	"Looking Glass",	"Someday", "Within Attraction" , "Standing in Motion"	,"Sand Dance"	],
+  "producer":	"Peter Baumann,  Yanni",
+  "label" : "Private Music"
+
+}]
 }
+
