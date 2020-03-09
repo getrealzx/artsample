@@ -13,7 +13,7 @@ router.get('/albums', (req, res)=>{
 
 
     res.render('albums.ejs', {
-        pageTitle: 'album List',
+        pageTitle: 'Album List',
         pageID: 'albumList',
         collections: songBuckets,
         allAlbums: data.albums
@@ -21,26 +21,26 @@ router.get('/albums', (req, res)=>{
 })
 
 
-// router.get('/albums/:albumid', (req, res)=>{
-//     let songBucket =[];
-//     let pagealbums = [];
-//     data.albums.forEach((albumObj)=>{
-//         if(albumObj.albumName == req.params.albumid){
-//             pagealbums.push(albumObj);
-//             console.log(pagealbums[0]);
-//             songBucket = albumObj.songList
-//         }
-//     })
+router.get('/albums/:albumid', (req, res)=>{
+    let songBucket =[];
+    let pagealbums = [];
+    data.albums.forEach((albumObj)=>{
+        if(albumObj.albumName == req.params.albumid){
+            pagealbums.push(albumObj);
+            console.log(pagealbums[0]);
+            songBucket = albumObj.songList
+        }
+    })
 
-//     res.render('albums', {
+    res.render('albums', {
 
-//         pageTitle: pagealbums[0].albumName,
-//         pageID: 'pagealbums',
-//         songList: pagePhotos,
-//         allAlbums: data.albums
-//     })
+        pageTitle: pagealbums[0].albumName,
+        pageID: 'pagealbums',
+        songList: pagePhotos,
+        allAlbums: data.albums
+    })
 
-// })
+})
 
 
 module.exports = router;

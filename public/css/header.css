@@ -1,8 +1,8 @@
 .header{
 
     width: 100%;
-    background-color: yellow;
-    height: 480px;
+
+    height: 50vw;
     overflow: hidden;
     position: absolute;
     top: -8vh;
@@ -36,7 +36,7 @@
     width: 100%;
     height: 480px;
     background-color:black;
-    opacity: 0.38;
+    opacity: 0.6;
 }
 
 .navbar-location{
@@ -57,3 +57,15 @@
 
 
 }
+
+.clp{
+
+    position: relative;
+    top:-25px;
+}
+
+
+.alb3{
+    width:25vw;
+}
+
